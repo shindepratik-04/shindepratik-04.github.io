@@ -6,7 +6,7 @@ body{
 .navbar{
 	background-color: #ffff99;
 	overflow: auto;
-	width: 100%;
+	width: 90%;
 }
 .navbar a{
 	font-family: Comic Sans MS;
