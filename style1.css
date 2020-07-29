@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image:url("gaming.jpg");
+	/*width: 100%;*/
+	/*max-width: 100%;
+	height: auto;*/
+	background-repeat: repeat;
+	background-position: left-bottom;
+	background-size: 100% 150%;
+	font-family: Comic Sans MS;
+	margin: 0px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #3366ff;
+	text-align: center;
+}
+li{
+	float: left;
+	font-size: 20px;
+	width: 33.33%;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #33ccff;
+}
+h1{
+	font-family: Comic Sans MS;
+	width: 100%;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 5px gray;
+}
+h2{
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+}
+table{
+	font-family: Comic Sans MS;
+	border-collapse: collapse;
+	width: 50%;
+	text-align: center;
+	margin-top: 80px;
+}
+th{
+	font-size: 20px;
+	text-align: left;
+	padding: 10px;
+	background-color: #6BBE30;
+}
+td{
+	font-size: 15px;
+	text-align: left;
+	padding: 10px;
+}
+tr:nth-child(odd){
+	background-color: #6BBE30;
+}
+tr:nth-child(even){
+	background-color: #CAE8F2;
+}
+/*.container{
+	font-size: 17px;
+	text-align: center;
+	padding-top: 50px;
+	color: 111;
+	position: absolute;
+	left: 55%;
+}*/
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #6BBE30;
+	color: 000;
+	text-align: center;
+	/*margin-top: 0px;*/
+}
+/*@media only screen and (max-width: 620px){
+	body, h1, h2, table, th, td, .container, .footer{
+		width: 100%;
+	}
+}*/
