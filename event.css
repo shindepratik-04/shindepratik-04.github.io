@@ -6,7 +6,7 @@ body{
 .navbar{
 	background-color: #ffff99;
 	overflow: auto;
-	width: 90%;
+	width: 100%;
 }
 .navbar a{
 	font-family: Comic Sans MS;
@@ -15,7 +15,7 @@ body{
 	color: black;
 	text-decoration: none;
 	font-size: 20px;
-	width: 29%;
+	width: 33.33%;
 	text-align: center;
 }	
 .navbar a:hover{
